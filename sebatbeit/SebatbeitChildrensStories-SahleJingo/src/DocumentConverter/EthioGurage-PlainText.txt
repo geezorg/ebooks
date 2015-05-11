@@ -1,0 +1,200 @@
+########################################################################
+# SERA 1997 System
+#
+# The BGN/PCGN system for Amharic Was designed for use in romanizing
+# names written in Amharic characters. The Roman letters and letter
+# combinations shown as equivalenS to the Amharic characters reflect
+# modern Amharic pronunciation. Different consonant characters in three
+# groups are pronounced alike in modern Amharic and are therefore
+# romanized identically for use in geographic names.
+#
+# Prepared by Daniel Yacob <yacob@geez.org>
+#
+# Based on the 1994 Romanization Systems and Roman-script Spelling
+# Conventions document. The 2005 draft has been consulted, but contains
+# errors, which if relevant are pointed out in this file.
+#
+########################################################################
+#
+# MINIMAL FILTER: Amharic-Latin
+#
+:: [ሀ-፼] ;
+#
+########################################################################
+
+########################################################################
+#
+# Define All Transformation Variables
+#
+########################################################################
+#
+$stop = '\u002a' ;
+#
+
+# ↔ ¢ ;
+# ↔ ~ ;
+# ↔ ø ;
+# ↔ \( ;
+# ↔ \) ;
+# ↔  ‘ ;
+# ↔  î ;
+
+# ↔ Ÿ ;
+# ↔ ½ ;
+# ↔ Á ;
+
+፥ ↔ \, ;
+
+ለ ↔ † ;
+ላ ↔ ‰ ;
+ሌ ↔ Š ; 
+ል ↔ l ;
+ሎ ↔ ‹ ;
+
+መ ↔ ’ ;
+ሙ ↔ “ ;
+ሚ ↔ ” ;
+ማ  ↔ • ;
+ማ ↔ a ;
+ሜ ↔ þ ;
+ም  ↔ m ;
+ሞ ↔ ÿ ;
+ሟ  ↔ ý ;
+
+ሩ ↔ Ÿ ;
+
+በ ↔ º ;
+ቢ ↔ ¼ ;
+ባ ↔ ½ ;
+ቤ ↔ ¾ ;
+ብ ↔ b ;
+ቦ ↔ ¿ ;
+
+ረ ↔ ö ;
+ሪ ↔ ¡ ;
+ራ ↔ ¢ ;
+ሬ ↔ £ ;
+ር ↔ r ;
+ሮ ↔ ¤ ;
+
+ሰ ↔ ¥ ;
+ሲ ↔ § ;
+ሳ ↔ ¨ ;
+ሴ ↔ © ;
+ስ ↔ s ;
+ሶ ↔ ª ;
+
+ሺ ↔ ® ;
+ሼ ↔ ° ;
+ሽ ↔ S ;
+
+ድ ↔ d ;
+
+ቀ ↔ ² ;
+ቃ ↔ µ ;
+ቄ ↔ ¸ ;
+ቅ ↔ K ;
+
+ቶ ↔ Å ;
+ቶ ← ¹ ;
+
+
+ⷀ ↔ Ì ;
+ⷄ ↔ Ð ;
+
+
+ተ ↔ À ;
+ቱ ↔ Á ;
+ቲ ↔ Â ;
+ታ ↔ Ã ;
+ቴ ↔ Ä ;
+ት ↔ t ;
+
+ቸ ↔ Æ ;
+ቻ ↔ É ;
+ቼ ↔ Ê ;
+ቼ ↔ È ;
+ች ↔ c ;
+ቾ ↔ Ë ;
+
+ነ ↔ Ò ;
+ኑ ↔ Ó ;
+ኒ ↔ Ô ;
+ና ↔ Õ ;
+# ና ↔ Û ;
+ኔ ↔ Ö ;
+ን  ↔ n ;
+ኖ ↔ × ;
+
+ከ ↔ ä ;
+ካ ↔ ç ;
+ኬ ↔ è ;
+ክ ↔ k ;
+ኮ ↔ é ;
+
+ⷉ ↔ ˜ ;
+ⷍ ↔ J ;
+
+ኸ ↔ ê ;
+ኹ ↔ ë ;
+ኻ ↔ í ;
+ኼ ↔ î ;
+ኽ ↔ H ;
+ኾ ↔ ï ;
+ዀ ↔ ‚ ;
+ዃ ↔ „ ;
+ዄ ↔ … ;
+
+ጅ ↔ j ;
+ጂ ↔ š ;
+
+ግ ↔ g ;
+
+፤ ↔ \; ;
+። ↔ \* ;
+
+ጥ ↔ T ;
+ጭ ↔ C ;
+
+ወ ↔ ð ;
+ው ↔ w ;
+ዋ ↔ ó ;
+ዊ ↔ ò ;
+ዌ ↔ ô ;
+
+ሸ ↔ « ;
+
+አ ↔ Þ;
+ኢ ↔ à ;
+ኤ ↔ â ;
+እ ↔ x ;
+ኦ ↔ ã ;
+ኧ ↔ A ;
+
+ዝ ↔ z ;
+ዥ ↔ Z ;
+ፗ ↔  ;
+ᎌ ↔  ;
+
+ቌ ↔  ;
+ይ ↔ y ;
+ፍ ↔ f ;
+ፎ ↔ ù ;
+ፏ ↔ Œ ;
+
+ⷃ ↔ Ï ;
+ⷅ ↔ L ;
+ᎎ ↔ ‘ ;
+ኛ ↔ Û ;
+ኺ ↔ ì ;
+ᎉ ↔ ú ;
+ፕ ↔ p ;
+ሻ ↔ ¯ ;
+
+#
+#
+# Inverse Filter : Latin-Amharic
+#
+:: ([•*`,;:-?<>~0-9A-Za-z“’ÆŒÏŠÜŸ‹‚„”‘˜†‰…¸¯\u007b-\u00ff]) ;
+#
+########################################################################

@@ -1,0 +1,115 @@
+########################################################################
+# SERA 1997 System
+#
+# The BGN/PCGN system for Amharic Was designed for use in romanizing
+# names written in Amharic characters. The Roman letters and letter
+# combinations shown as equivalenS to the Amharic characters reflect
+# modern Amharic pronunciation. Different consonant characters in three
+# groups are pronounced alike in modern Amharic and are therefore
+# romanized identically for use in geographic names.
+#
+# Prepared by Daniel Yacob <yacob@geez.org>
+#
+# Based on the 1994 Romanization Systems and Roman-script Spelling
+# Conventions document. The 2005 draft has been consulted, but contains
+# errors, which if relevant are pointed out in this file.
+#
+########################################################################
+#
+# MINIMAL FILTER: Amharic-Latin
+#
+:: [ሀ-፼] ;
+#
+########################################################################
+
+########################################################################
+#
+# Define All Transformation Variables
+#
+########################################################################
+#
+#
+
+ᎂ  ↔ Ô; # bold
+ᎃ  ↔ ö ; # bold
+ዛ ↔ ƒ ; # bold
+ᎆ ↔ ù ; # bold
+ዢ ↔ ˆ ; # bold
+ዅ ↔ ô ; # bold
+ገ ↔ ò ; # bold
+ጋ ↔ ¢ ; # bold
+ዘ ↔ ä ; # bold
+ዞ ↔ … ; # bold
+ጨ ↔ « ; # bold
+ጮ ↔ ± ; # bold
+ቧ ↔ ð ; # bold
+ጠ ↔ ¥ ; # bold
+ጢ ↔ § ; # bold
+ጣ ↔ ¨ ; # bold
+ጤ ↔ © ; # bold
+ጦ ↔ ª ; # bold
+ጫ ↔ ¯ ; # bold
+ጬ  ↔ ° ; # bold
+ⷕ ↔ h ; # bold
+ᎀ ↔ Ò ; # bold
+ደ ↔ ’ ; # bold 
+ዴ ↔ þ ; # bold
+ዶ ↔ ÿ ; # bold
+ዳ ↔ • ; # bold
+ጀ ↔ ˜ ; # bold
+ጊ ↔ ¡ ;
+የ ↔ Œ ; # bold
+ያ ↔  ; # bold
+ያ ← ø ; # bold
+ዬ ↔  ; # bold
+ዮ ↔ ‘ ; # bold
+ፐ ↔ Ì ; # bold
+ፒ ↔ Î ; # bold
+ፓ ↔ Ï ; # bold
+ፖ ↔ Ñ ; # bold
+ኰ ↔ ó ; # bold
+ፈ ↔ Æ ; # bold
+ፋ ↔ É ; # bold
+ፌ ↔ Ê ; # bold
+ፎ ↔ Ë ; # bold
+ᎈ ↔ ú ; # bold
+ጌ ↔ £ ; # bold
+ቈ ↔ ì ; # bold
+ጐ ↔ è ; # bold
+ኰ ↔ ã ; # bold
+ዠ ↔ † ; # bold
+ኳ ↔ æ ; # bold
+ጕ ↔ õ ; # bold
+ⷛ ↔ ½ ; # bold
+ቋ ↔ î ; # bold
+ዣ ↔ ‰ ; # bold
+ⷞ ↔ º ; # bold
+ᎇ ↔ Õ ; # bold
+ጔ ↔ ë ; #bold
+ዱ ↔ “ ; #bold
+፦ ↔ \:\- ; # bold
+ዙ ↔  ;
+ዜ ↔ „ ; # bold
+ዀ ↔ \, ; # bold
+ጓ ↔ ê ; # bold
+ዤ ↔ Š ;
+ጒ ↔ \@ ;
+# ᎎ ↔ ‘ ;
+ጎ ↔ ¤ ;
+ⷝ ↔ F ;
+# ᎉ ↔ ú ;
+ⷕ ↔ Ø ;
+ዪ ↔ ñ ;
+ⷔ ↔ Ü ;
+ጀ ↔  ;
+ጪ ↔ ® ;
+ፔ ↔ Ð ;
+
+
+#
+#
+# Inverse Filter : Latin-Amharic
+#
+:: ([•*`,;:-?<>~@0-9A-Za-zñæîŒÒØÿƒþŠÜ¤†‰…„˜’‘“ˆ\u007b-\u00ff]) ;
+#
+########################################################################
