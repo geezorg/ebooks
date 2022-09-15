@@ -1,4 +1,4 @@
-# The Geʾez Frontier Foundation eBook Archive
+# The Geʾez Frontier Foundation’s eBook Archive
 
 This repository contains out of print, and out of copyright, books whose author has also passed away and in most cases the original publishing house has also closed. Miscellaneous papers, articles, and select exerts of some texts may also be found here. 
 
